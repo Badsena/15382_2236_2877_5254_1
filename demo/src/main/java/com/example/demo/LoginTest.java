@@ -32,7 +32,7 @@ public class LoginTest {
 
             
             WebElement passwordField = driver.findElement(By.id("password"));
-            passwordField.sendKeys("Passwo");
+            passwordField.sendKeys("Password123");
 
             
             WebElement loginButton = driver.findElement(By.id("submit"));
