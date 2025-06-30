@@ -39,7 +39,7 @@ public class LoginTest {
             loginButton.click();
 
         
-            Thread.sleep(3000);
+            Thread.sleep(2000);
             System.out.println(driver.getTitle());
 
         } catch (Exception e) {
