@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest {
     public static void main(String[] args) {
-        // Setup WebDriver
+        
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
@@ -23,22 +23,22 @@ public class LoginTest {
         WebDriver driver = new ChromeDriver(options);
 
         try {
-            // Open login page
+            
             driver.get("https://practicetestautomation.com/practice-test-login/");
 
-            // Locate username field
+        
             WebElement usernameField = driver.findElement(By.id("username"));
-            usernameField.sendKeys("student");
+            usernameField.sendKeys("stu");
 
-            // Locate password field
+            
             WebElement passwordField = driver.findElement(By.id("password"));
             passwordField.sendKeys("Password123");
 
-            // Click login
+            
             WebElement loginButton = driver.findElement(By.id("submit"));
             loginButton.click();
 
-            // Wait briefly and print the title of the next page
+        
             Thread.sleep(3000);
             System.out.println(driver.getTitle());
 
@@ -47,7 +47,7 @@ public class LoginTest {
             e.printStackTrace();
         } finally {
             driver.quit();
-            System.exit(0); // Prevent lingering threads
+            System.exit(0); 
         }
     }
 }
