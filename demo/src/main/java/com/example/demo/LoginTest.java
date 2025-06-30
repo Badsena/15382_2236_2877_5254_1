@@ -35,7 +35,7 @@ public class LoginTest {
             passwordField.sendKeys("Password123");
 
             
-            WebElement loginButton = driver.findElement(By.cssSelector("#form > div:nth-child(2)"));
+            WebElement loginButton = driver.findElement(By.id("submit"));
             loginButton.click();
 
         
