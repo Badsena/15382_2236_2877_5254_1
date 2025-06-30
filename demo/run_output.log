@@ -5,11 +5,11 @@
 [[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
 [[1;34mINFO[m] 
 [[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.1.0:java[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
-05:39:19.025 [com.example.demo.LoginTest.main()] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
-05:39:19.042 [com.example.demo.LoginTest.main()] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /root/.cache/selenium/chromedriver/linux64/137.0.7151.119/chromedriver
-Jun 30, 2025 5:39:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+05:40:27.245 [com.example.demo.LoginTest.main()] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+05:40:27.263 [com.example.demo.LoginTest.main()] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /root/.cache/selenium/chromedriver/linux64/137.0.7151.119/chromedriver
+Jun 30, 2025 5:40:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 137
-Jun 30, 2025 5:39:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Jun 30, 2025 5:40:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 Login failed
 org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
@@ -17,9 +17,9 @@ org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVE
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-142-generic', java.version: '17.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4b12253c1f5431aa250c008d9e6b5d3c, get {url=https://skctamypo.com}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /tmp/chrome-user-data-17512...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33739/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4b12253c1f5431aa250c008d9e6b5d3c
+Command: [5f277ee23410cdd35771647a30ff9e87, get {url=https://skctamypo.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /tmp/chrome-user-data-17512...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:43439/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f277ee23410cdd35771647a30ff9e87
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
