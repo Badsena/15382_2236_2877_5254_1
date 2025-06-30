@@ -11,27 +11,10 @@
 [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
 [[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
 [[1;34mINFO[m] Compiling 2 source files with javac [debug parameters release 17] to target/classes
-[[1;34mINFO[m] -------------------------------------------------------------
-[[1;31mERROR[m] COMPILATION ERROR : 
-[[1;34mINFO[m] -------------------------------------------------------------
-[[1;31mERROR[m] /home/coder/Workspace/demo/src/main/java/com/example/demo/LoginTest.java:[38,76] ')' expected
-[[1;31mERROR[m] /home/coder/Workspace/demo/src/main/java/com/example/demo/LoginTest.java:[38,82] ';' expected
-[[1;34mINFO[m] 2 errors 
-[[1;34mINFO[m] -------------------------------------------------------------
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  1.081 s
-[[1;34mINFO[m] Finished at: 2025-06-30T06:15:15Z
+[[1;34mINFO[m] Total time:  1.582 s
+[[1;34mINFO[m] Finished at: 2025-06-30T06:17:10Z
 [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m on project [36mdemo[m: [1;31mCompilation failure[m: Compilation failure: 
-[[1;31mERROR[m] /home/coder/Workspace/demo/src/main/java/com/example/demo/LoginTest.java:[38,76] ')' expected
-[[1;31mERROR[m] /home/coder/Workspace/demo/src/main/java/com/example/demo/LoginTest.java:[38,82] ';' expected
-[[1;31mERROR[m] -> [1m[Help 1][m
-[[1;31mERROR[m] 
-[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
-[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
-[[1;31mERROR[m] 
-[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
-[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 [0m[0m
