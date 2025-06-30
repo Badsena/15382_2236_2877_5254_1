@@ -23,8 +23,8 @@ public class LoginTest {
         WebDriver driver = new ChromeDriver(options);
 
         try {
-            // Open login page
-            driver.get("https://practicetestautomation.com/practice-test-login/");
+            
+            driver.get("https://skctamypo.com/practice-test-login/");
 
             // Locate username field
             WebElement usernameField = driver.findElement(By.id("username"));
