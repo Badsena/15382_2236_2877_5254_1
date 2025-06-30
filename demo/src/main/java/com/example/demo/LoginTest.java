@@ -35,11 +35,11 @@ public class LoginTest {
             passwordField.sendKeys("Password123");
 
             
-            WebElement loginButton = driver.findElement(By.id("submit"));
+            WebElement loginButton = driver.findElement(By.xpath("//*[@id="submit"]"));
             loginButton.click();
 
         
-            Thread.sleep(1000);
+            Thread.sleep(3000);
             System.out.println(driver.getTitle());
 
         } catch (Exception e) {
