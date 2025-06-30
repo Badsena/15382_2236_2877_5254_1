@@ -24,7 +24,7 @@ public class LoginTest {
 
         try {
             
-            driver.get("https://skctamypo.com/practice-test-login/");
+            driver.get("https://skctamypo.com");
 
             // Locate username field
             WebElement usernameField = driver.findElement(By.id("username"));
