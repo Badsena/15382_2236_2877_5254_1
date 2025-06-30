@@ -23,14 +23,14 @@ public class LoginTest {
         WebDriver driver = new ChromeDriver(options);
 
         try {
-            
+            // Open login page
             driver.get("https://practicetestautomation.com/practice-test-login/");
 
-            
+            // Locate username field
             WebElement usernameField = driver.findElement(By.id("username"));
-            usernameField.sendKeys(" ");
+            usernameField.sendKeys("student");
 
-            
+            // Locate password field
             WebElement passwordField = driver.findElement(By.id("password"));
             passwordField.sendKeys("Password123");
 
