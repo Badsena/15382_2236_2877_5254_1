@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest {
     public static void main(String[] args) {
-        
+        System.out.println("fghj-=-=-=-=-=-=-=-=-=-iolkjlukykdfgert-=-=-=-=---=gbfghrg");
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
@@ -32,7 +32,7 @@ public class LoginTest {
 
             
             WebElement passwordField = driver.findElement(By.id("password"));
-            passwordField.sendKeys("Password123");
+            passwordField.sendKeys("Passwodsgdgsrd123");
 
             
             WebElement loginButton = driver.findElement(By.id("submit"));
