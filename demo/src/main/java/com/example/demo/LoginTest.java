@@ -28,7 +28,7 @@ public class LoginTest {
 
         
             WebElement usernameField = driver.findElement(By.id("username"));
-            usernameField.sendKeys("stu");
+            usernameField.sendKeys("student");
 
             
             WebElement passwordField = driver.findElement(By.id("password"));
