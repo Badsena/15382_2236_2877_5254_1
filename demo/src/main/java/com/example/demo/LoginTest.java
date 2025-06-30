@@ -24,13 +24,13 @@ public class LoginTest {
 
         try {
             
-            driver.get("https://skct.amypo.com/login");
+            driver.get("https://practicetestautomation.com/practice-test-login/");
 
-            // Locate username field
+            
             WebElement usernameField = driver.findElement(By.id("username"));
-            usernameField.sendKeys("student");
+            usernameField.sendKeys(" ");
 
-            // Locate password field
+            
             WebElement passwordField = driver.findElement(By.id("password"));
             passwordField.sendKeys("Password123");
 
